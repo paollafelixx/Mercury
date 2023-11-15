@@ -20,11 +20,15 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="24637E79-E67A-5B2C-845B-FEC37D8449CF" otype="Entity" vid="705F54A3-5347-CF36-257E-B2E9047E2531">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="205" y="257" width="176" height="110"/>
+<bounds x="205" y="257" width="176" height="164"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2A6BE42F-72AA-1B67-AB5C-FD6AB9BC95A5" otype="Entity" vid="E42E13C8-EEC9-D4A6-72E8-F309E8374A92">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="387" y="258" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2F6D1EC8-EF7F-109D-5754-14C8F9A4D369" otype="Entity" vid="F7B7A419-1652-4315-4C8D-F095EEE6B33A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="12" y="384" width="185" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2F8470EE-6708-7C0E-0397-3138C59A5C9D" otype="Entity" vid="9D066020-7151-664B-52B5-6B022F1ECA33">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

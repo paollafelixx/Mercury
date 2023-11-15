@@ -14,4 +14,118 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plano_saude" id="41AE37ED-9AEE-293A-2D0C-FE34FD8F45FD">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:02:24 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_razao_social" id="68C50178-62D0-F24E-160C-E6B8BB6ECCB3">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:02:31 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_fantasia_plano_saude" id="1EB630CC-2D37-20CF-D568-B4592DD92EA8">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:02:39 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_plano_saude" id="771D09FD-26F8-8D63-D433-9D50E8A5B888">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:02:50 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="36390CA3-924A-D2D4-BC77-6786ED597919">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:02:59 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="14FDA643-C079-25A2-DD9A-4881F955DF51">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:03:06 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_telefone" id="F2C7865D-6FBE-0888-BA12-72A3A56D7EA5">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:03:21 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="E83540C9-0D26-3317-9915-896B10FA82BF">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:03:30 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="850744FC-4D61-5BD4-9EF3-DF9FB7F5D7B3">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:05:30 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E342BFB3-CD19-47C9-02B9-5E765A53C3DB" name="T_MERCURY_PLANO_DE_SAUDE PK">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 22:02:30 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41AE37ED-9AEE-293A-2D0C-FE34FD8F45FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

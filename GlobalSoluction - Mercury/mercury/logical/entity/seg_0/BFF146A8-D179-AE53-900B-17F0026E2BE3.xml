@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFF146A8-D179-AE53-900B-17F0026E2BE3" name="T_MERCURY_TELEFONE_USUARIO">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:43:44 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="C23E2F4C-2752-1074-0E24-B5C0E2688684">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:13 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_telefone" id="D850284C-C080-5F24-85EA-206385409647">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:21 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="8C32CE7F-9886-4229-1807-1377A73C4CD1">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:33 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="26AC288E-5247-B42D-C820-EE00AC5A4217">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:39 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="CE4D0D9D-BB9E-6DE8-6C96-435F164BA220">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:41 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_telefone" id="223D6B51-45A7-C00E-EC13-92E3AEE96AA2">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:51 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_telefone" id="C253558A-2314-A0BC-77F0-67B241441EF9">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:57 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25324EA8-B844-6E4A-57B7-BC2E580C7832" name="T_MERCURY_TELEFONE_USUARIO PK">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:52:18 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C23E2F4C-2752-1074-0E24-B5C0E2688684</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mercury" id="BCA62B02-5F6B-99F8-7C49-511099193D2E" version="3.5">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 20:22:38 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BCA62B02-5F6B-99F8-7C49-511099193D2E</designId>
+</OSDM_Design>

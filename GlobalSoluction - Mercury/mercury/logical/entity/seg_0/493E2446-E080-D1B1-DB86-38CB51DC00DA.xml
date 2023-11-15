@@ -70,7 +70,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tip_grupo_sanguineo" id="2580A6AF-7831-DC34-1222-BBC34E16E6CB">
+<Attribute name="tp_grupo_sanguineo" id="2580A6AF-7831-DC34-1222-BBC34E16E6CB">
 <createdBy>Paolla Felix</createdBy>
 <createdTime>2023-11-15 20:57:57 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>

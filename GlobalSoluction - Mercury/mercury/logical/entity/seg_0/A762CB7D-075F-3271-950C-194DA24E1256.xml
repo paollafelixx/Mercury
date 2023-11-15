@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A762CB7D-075F-3271-950C-194DA24E1256" name="T_MERCURY_USUARIO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A762CB7D-075F-3271-950C-194DA24E1256" name="T_MERCURY_ENDERECO_USUARIO">
 <createdBy>Paolla Felix</createdBy>
 <createdTime>2023-11-15 20:38:53 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
@@ -14,4 +14,73 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="3572C413-B378-9665-8105-C2B14FC400D0">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:55:13 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="66248EB8-68DC-0078-C842-5E1ACA0F30B8">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:55:20 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="1536F943-556A-CC6F-E729-27A0708324AA">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:55:26 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento_numero" id="F12783DE-646E-AFEB-F60B-243F4BA5E838">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:55:41 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ponto_referencia" id="4A103497-7917-00E1-2060-CB2EA4AED106">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:55:53 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96CF368B-9223-E7DD-C4F3-9576A9672799" name="T_MERCURY_ENDERECO_USUARIO PK">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:55:19 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3572C413-B378-9665-8105-C2B14FC400D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

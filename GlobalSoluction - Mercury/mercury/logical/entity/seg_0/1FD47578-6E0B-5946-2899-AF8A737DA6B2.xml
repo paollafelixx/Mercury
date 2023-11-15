@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -71,4 +70,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="681F719E-8511-E30A-F29F-1AFEF5244FB7" name="T_MERCURY_RESULTADOS_EXAMES PK">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:50:23 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EE0081E-C1B4-BB42-90C4-A92135480607</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

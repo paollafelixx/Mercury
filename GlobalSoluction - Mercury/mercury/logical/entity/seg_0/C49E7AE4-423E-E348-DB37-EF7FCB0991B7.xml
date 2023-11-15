@@ -14,4 +14,74 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco_posto" id="7F379C48-F3A3-8382-6490-6C9605D59186">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:56:22 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="8A811FD2-6222-DCC6-0E56-2889F211490C">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:56:27 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="1BB3429F-BEEE-BAA9-760A-07A72B308FEC">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:56:32 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento_numero" id="2098056A-BB2D-2B48-2E50-65503E4B4C42">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:56:37 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ponto_referencia" id="E8D8E47F-BFA9-A740-8A70-A6577028F846">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:56:46 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EB36F2A-275F-D989-0AB7-6FA6E3480A0D" name="T_MERCURY_ENDERECO_POSTO_SAUDE PK">
+<createdBy>Paolla Felix</createdBy>
+<createdTime>2023-11-15 21:56:56 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F379C48-F3A3-8382-6490-6C9605D59186</attributeRef>
+<attributeRef>8A811FD2-6222-DCC6-0E56-2889F211490C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

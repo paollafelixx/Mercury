@@ -69,6 +69,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_doenca" id="B6B7BBBD-1BC7-A8EB-706D-09F18BE388DC">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:51:37 UTC</createdTime>
+<generatorID>9F96E979-0DEF-9B06-0184-2CBE1697C2B0</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>1883B2B2-16D7-AC81-EC9B-53A0DE02503A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="681F719E-8511-E30A-F29F-1AFEF5244FB7" name="T_MERCURY_RESULTADOS_EXAMES PK">

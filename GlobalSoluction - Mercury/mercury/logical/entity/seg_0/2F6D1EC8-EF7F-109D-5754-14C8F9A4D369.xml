@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -70,5 +69,31 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario1" id="DD79C81A-3151-3B13-D030-52D1F8C7CC0C">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 17:21:15 UTC</createdTime>
+<generatorID>F1A2CD9F-5C48-A994-E250-6EE6732F4468</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>C2AABCE6-22D2-25B7-E58B-4E5FB0CF6151</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51904798-865B-E607-91FE-CE0FDF756035" name="T_MERCURY_USUARIO_PLANO_DE_SAUDE PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 17:22:29 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>844E75EA-6485-A619-41F6-DA77772429EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

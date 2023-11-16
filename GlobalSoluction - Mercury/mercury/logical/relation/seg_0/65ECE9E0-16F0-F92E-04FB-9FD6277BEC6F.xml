@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="65ECE9E0-16F0-F92E-04FB-9FD6277BEC6F">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 18:15:30 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F8470EE-6708-7C0E-0397-3138C59A5C9D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C689C48B-6DAB-3540-639F-F2C4DE4D5F75</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

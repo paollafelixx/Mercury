@@ -58,6 +58,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="17610C15-A42D-1650-D8EC-AE340637814D">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 17:32:52 UTC</createdTime>
+<generatorID>F81C3B2B-779D-EDD7-5758-79CE734EBAB2</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>C2AABCE6-22D2-25B7-E58B-4E5FB0CF6151</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profissional" id="445517AA-1D06-900A-2E28-D5D6350A53AF">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:48:27 UTC</createdTime>
+<generatorID>B3265F88-4D7A-AE52-86FA-107E90BAB5EA</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>D1955DB7-502D-87A8-F85B-64718ADCCED1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F528E355-1515-2C96-268B-3F6532FEA0BD" name="T_MERCURY_AUTENTICA PK">

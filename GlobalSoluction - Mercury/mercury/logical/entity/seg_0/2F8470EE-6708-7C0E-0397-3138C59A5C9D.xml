@@ -14,4 +14,29 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_posto_saude" id="4A15D95E-E9F2-D681-8326-9888ADD73F74">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:36:36 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profissional" id="92BB9E2A-2ABD-5172-CDA8-94BD73883812">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:48:27 UTC</createdTime>
+<generatorID>D415036C-D936-3AC0-1B88-8A4ECD944482</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>D1955DB7-502D-87A8-F85B-64718ADCCED1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

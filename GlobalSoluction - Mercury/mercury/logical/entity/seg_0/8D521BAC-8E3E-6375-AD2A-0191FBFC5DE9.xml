@@ -14,4 +14,63 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profissional" id="D1955DB7-502D-87A8-F85B-64718ADCCED1">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:45:46 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_profissional" id="5CCB07D7-99B0-19F1-925A-2E27A2A5F3C4">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:45:47 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_profissional" id="DCA78E49-64D2-09CD-87B5-0DB2055ED4CF">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:45:46 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fl_sexo" id="F845E90B-D0BE-C145-DAC2-7A1F49C75888">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:45:47 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20DB336A-3EA2-631C-F2E9-9C103CD89102" name="T_MERCURY_PROFISSIONAIS_SAUDE PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:45:52 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1955DB7-502D-87A8-F85B-64718ADCCED1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

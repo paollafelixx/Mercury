@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -92,5 +91,43 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_endereco" id="077DB3CB-D7EB-7155-885B-1CA244C715B2">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 15:49:04 UTC</createdTime>
+<generatorID>DE295553-303C-DE6B-4D7E-E4052F68AFB4</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>3572C413-B378-9665-8105-C2B14FC400D0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="D09A5B8E-C800-95A8-0A66-0BA91AE648F2">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 18:03:56 UTC</createdTime>
+<generatorID>89874307-17B1-810A-8332-4CAD674C39A8</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>C84D41B0-3C1D-B2DF-4230-2BAF9F05AB41</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58238F5F-6743-9603-1E81-87A7636F8A98" name="T_MERCURY_USUARIO PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 17:21:13 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2AABCE6-22D2-25B7-E58B-4E5FB0CF6151</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

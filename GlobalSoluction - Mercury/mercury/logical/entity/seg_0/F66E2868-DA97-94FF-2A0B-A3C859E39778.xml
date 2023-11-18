@@ -14,4 +14,65 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_doenca" id="1883B2B2-16D7-AC81-EC9B-53A0DE02503A">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:43:10 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_doenca" id="91430A46-7DD7-F5EB-6306-CDDB3018DFCD">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:43:11 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sus" id="DCBBA80A-846F-B4AB-B43E-B191CE4C028C">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:54:01 UTC</createdTime>
+<generatorID>98AF9CA8-8933-4E35-30FA-AE5A2D99471D</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>54BD1940-1339-B661-DF07-D69863AC6C59</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="1347CEE5-CE89-7BB9-F346-1452069DC690">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:54:01 UTC</createdTime>
+<generatorID>98AF9CA8-8933-4E35-30FA-AE5A2D99471D</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>26B64E52-4743-7DCC-E65A-091586185066</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0DF0E765-4214-B579-BEAF-A2AD1B1C3D58" name="T_MERCURY_INFORMACAO_DOENCA PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:43:17 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1883B2B2-16D7-AC81-EC9B-53A0DE02503A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

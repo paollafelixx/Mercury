@@ -85,6 +85,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario1" id="8B5127FA-B96B-D7B0-2E59-02968542EFCE">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 17:21:15 UTC</createdTime>
+<generatorID>CFBA69C7-EED4-0F15-A4F0-82F0D440F081</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>C2AABCE6-22D2-25B7-E58B-4E5FB0CF6151</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="25324EA8-B844-6E4A-57B7-BC2E580C7832" name="T_MERCURY_TELEFONE_USUARIO PK">

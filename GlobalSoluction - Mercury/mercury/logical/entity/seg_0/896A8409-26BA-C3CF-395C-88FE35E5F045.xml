@@ -65,6 +65,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario1" id="86C9311B-A6A8-900D-7A58-41DB85B8D073">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 17:21:15 UTC</createdTime>
+<generatorID>C56758A2-05DF-3B38-518C-8C886910CF21</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>C2AABCE6-22D2-25B7-E58B-4E5FB0CF6151</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7DF0638B-9E18-51EA-142A-F33E04FBCE32" name="T_MERCURY_EMAIL_USUARIO PK">

@@ -14,4 +14,41 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sus" id="54BD1940-1339-B661-DF07-D69863AC6C59">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:38:47 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="26B64E52-4743-7DCC-E65A-091586185066">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:38:47 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="093BF410-FEDB-D47C-26AE-E916E76D8B5E" name="T_MERCURY_SUS PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-16 19:39:06 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54BD1940-1339-B661-DF07-D69863AC6C59</attributeRef>
+<attributeRef>26B64E52-4743-7DCC-E65A-091586185066</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

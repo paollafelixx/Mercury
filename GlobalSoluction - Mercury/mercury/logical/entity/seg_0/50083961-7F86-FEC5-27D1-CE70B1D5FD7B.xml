@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D521BAC-8E3E-6375-AD2A-0191FBFC5DE9" name="T_MERCURY_PROFISSIONAL_SAUDE">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 20:40:58 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50083961-7F86-FEC5-27D1-CE70B1D5FD7B" name="T_MERCURY_AGENDAMENTO_EXAMES">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:36:42 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_profissional" id="D1955DB7-502D-87A8-F85B-64718ADCCED1">
+<Attribute name="Attribute_1" id="C4036A6E-E68B-3B72-8E18-F5730A31FDB5">
 <createdBy>mathe</createdBy>
-<createdTime>2023-11-16 19:45:46 UTC</createdTime>
+<createdTime>2023-11-22 17:37:44 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -25,20 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_profissional" id="5CCB07D7-99B0-19F1-925A-2E27A2A5F3C4">
+<Attribute name="Attribute_2" id="7C15B4AB-167E-E3DA-0DC5-015B5E7CA0B8">
 <createdBy>mathe</createdBy>
-<createdTime>2023-11-16 19:45:47 UTC</createdTime>
-<ownerDesignName>mercury</ownerDesignName>
-<engineerTo>
-<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tp_profissional" id="DCA78E49-64D2-09CD-87B5-0DB2055ED4CF">
-<createdBy>mathe</createdBy>
-<createdTime>2023-11-16 19:45:46 UTC</createdTime>
+<createdTime>2023-11-22 17:37:45 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -47,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fl_sexo" id="F845E90B-D0BE-C145-DAC2-7A1F49C75888">
+<Attribute name="Attribute_3" id="1BAC9FFF-1BFB-8E4B-D694-A0ECD688213D">
 <createdBy>mathe</createdBy>
-<createdTime>2023-11-16 19:45:47 UTC</createdTime>
+<createdTime>2023-11-22 17:37:45 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -60,16 +49,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="20DB336A-3EA2-631C-F2E9-9C103CD89102" name="T_MERCURY_PROFISSIONAIS_SAUDE PK">
+<identifier id="05CB8D34-3B9D-913E-9AC6-C12C6EC21E45" name="T_MERCURY_AGENDAMENTO_EXAMES PK">
 <createdBy>mathe</createdBy>
-<createdTime>2023-11-16 19:45:52 UTC</createdTime>
+<createdTime>2023-11-22 17:37:51 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D1955DB7-502D-87A8-F85B-64718ADCCED1</attributeRef>
+<attributeRef>C4036A6E-E68B-3B72-8E18-F5730A31FDB5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

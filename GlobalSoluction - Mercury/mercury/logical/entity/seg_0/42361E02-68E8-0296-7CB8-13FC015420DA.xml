@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C49E7AE4-423E-E348-DB37-EF7FCB0991B7" name="T_MERCURY_ENDERECO_POSTO_SAUDE">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 20:42:22 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42361E02-68E8-0296-7CB8-13FC015420DA" name="T_MERCURY_ACOMPANHAMENTO_DOENCA">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:24:47 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_endereco_posto" id="7F379C48-F3A3-8382-6490-6C9605D59186">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:22 UTC</createdTime>
+<Attribute name="tp_contagio" id="24DFDD96-CD7F-456B-D615-251442AB5A89">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:26:19 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -25,19 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="8A811FD2-6222-DCC6-0E56-2889F211490C">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:27 UTC</createdTime>
-<ownerDesignName>mercury</ownerDesignName>
-<engineerTo>
-<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_logradouro" id="1BB3429F-BEEE-BAA9-760A-07A72B308FEC">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:32 UTC</createdTime>
+<Attribute name="sintomas_apresentados" id="D1C26937-D416-5157-C11F-199C154307CC">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:26:20 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -46,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_complemento_numero" id="2098056A-BB2D-2B48-2E50-65503E4B4C42">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:37 UTC</createdTime>
+<Attribute name="resultado_teste_hiv" id="9A5C825E-8C2D-440D-7305-E86D88D9199E">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:56:38 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -57,9 +47,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_ponto_referencia" id="E8D8E47F-BFA9-A740-8A70-A6577028F846">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:46 UTC</createdTime>
+<Attribute name="tratamento" id="A4573B2A-D852-81F9-A92A-4FBCD935DDD8">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:26:21 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -70,17 +60,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8EB36F2A-275F-D989-0AB7-6FA6E3480A0D" name="T_MERCURY_ENDERECO_POSTO_SAUDE PK">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:56 UTC</createdTime>
+<identifier id="AECAB8DF-8C47-0E98-1A9B-618DFBF37CAA" name="T_MERCURY_ACOMPANHAMENTO_DOENCA PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:32:05 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7F379C48-F3A3-8382-6490-6C9605D59186</attributeRef>
-<attributeRef>8A811FD2-6222-DCC6-0E56-2889F211490C</attributeRef>
+<attributeRef>24DFDD96-CD7F-456B-D615-251442AB5A89</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

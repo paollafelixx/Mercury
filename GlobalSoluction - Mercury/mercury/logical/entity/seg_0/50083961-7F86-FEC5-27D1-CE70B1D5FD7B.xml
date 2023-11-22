@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Attribute_1" id="C4036A6E-E68B-3B72-8E18-F5730A31FDB5">
+<Attribute name="id_agendamento" id="C4036A6E-E68B-3B72-8E18-F5730A31FDB5">
 <createdBy>mathe</createdBy>
 <createdTime>2023-11-22 17:37:44 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
@@ -25,7 +25,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Attribute_2" id="7C15B4AB-167E-E3DA-0DC5-015B5E7CA0B8">
+<Attribute name="dt_agendamento" id="7C15B4AB-167E-E3DA-0DC5-015B5E7CA0B8">
 <createdBy>mathe</createdBy>
 <createdTime>2023-11-22 17:37:45 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
@@ -36,7 +36,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Attribute_3" id="1BAC9FFF-1BFB-8E4B-D694-A0ECD688213D">
+<Attribute name="hr_agendamento" id="1BAC9FFF-1BFB-8E4B-D694-A0ECD688213D">
 <createdBy>mathe</createdBy>
 <createdTime>2023-11-22 17:37:45 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>

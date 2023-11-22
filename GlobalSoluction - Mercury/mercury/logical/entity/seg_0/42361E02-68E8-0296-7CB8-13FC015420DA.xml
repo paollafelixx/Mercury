@@ -15,6 +15,16 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_doenca" id="E9C14699-1DC2-2617-CAC5-DDA7F4F41892">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 22:34:37 UTC</createdTime>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="tp_contagio" id="24DFDD96-CD7F-456B-D615-251442AB5A89">
 <createdBy>mathe</createdBy>
 <createdTime>2023-11-22 17:26:19 UTC</createdTime>
@@ -58,6 +68,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="308210DC-6B19-58DD-57CF-653A147FFB95">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 22:27:23 UTC</createdTime>
+<generatorID>A5F4D025-4AA0-86FF-9608-6A0A87B90929</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>C2AABCE6-22D2-25B7-E58B-4E5FB0CF6151</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AECAB8DF-8C47-0E98-1A9B-618DFBF37CAA" name="T_MERCURY_ACOMPANHAMENTO_DOENCA PK">
@@ -69,7 +91,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>24DFDD96-CD7F-456B-D615-251442AB5A89</attributeRef>
+<attributeRef>E9C14699-1DC2-2617-CAC5-DDA7F4F41892</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

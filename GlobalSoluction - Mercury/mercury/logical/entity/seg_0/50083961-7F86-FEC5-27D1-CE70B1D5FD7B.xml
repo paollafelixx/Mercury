@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C49E7AE4-423E-E348-DB37-EF7FCB0991B7" name="T_MERCURY_ENDERECO_POSTO_SAUDE">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 20:42:22 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50083961-7F86-FEC5-27D1-CE70B1D5FD7B" name="T_MERCURY_AGENDAMENTO_EXAMES">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:36:42 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_endereco_posto" id="7F379C48-F3A3-8382-6490-6C9605D59186">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:22 UTC</createdTime>
+<Attribute name="id_agendamento" id="C4036A6E-E68B-3B72-8E18-F5730A31FDB5">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:37:44 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -25,19 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="8A811FD2-6222-DCC6-0E56-2889F211490C">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:27 UTC</createdTime>
-<ownerDesignName>mercury</ownerDesignName>
-<engineerTo>
-<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_logradouro" id="1BB3429F-BEEE-BAA9-760A-07A72B308FEC">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:32 UTC</createdTime>
+<Attribute name="dt_agendamento" id="7C15B4AB-167E-E3DA-0DC5-015B5E7CA0B8">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:37:45 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -46,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_complemento_numero" id="2098056A-BB2D-2B48-2E50-65503E4B4C42">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:37 UTC</createdTime>
+<Attribute name="hr_agendamento" id="1BAC9FFF-1BFB-8E4B-D694-A0ECD688213D">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:37:45 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
@@ -57,30 +47,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_ponto_referencia" id="E8D8E47F-BFA9-A740-8A70-A6577028F846">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:46 UTC</createdTime>
+<Attribute name="id_plano_saude" id="383EDAAE-ED19-09E2-EFB4-9BDFE1969CF5">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-23 06:21:06 UTC</createdTime>
+<generatorID>9ECE841D-62AE-D778-6F05-1822DED879F2</generatorID>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>41AE37ED-9AEE-293A-2D0C-FE34FD8F45FD</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8EB36F2A-275F-D989-0AB7-6FA6E3480A0D" name="T_MERCURY_ENDERECO_POSTO_SAUDE PK">
-<createdBy>Paolla Felix</createdBy>
-<createdTime>2023-11-15 21:56:56 UTC</createdTime>
+<identifier id="05CB8D34-3B9D-913E-9AC6-C12C6EC21E45" name="T_MERCURY_AGENDAMENTO_EXAMES PK">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-22 17:37:51 UTC</createdTime>
 <ownerDesignName>mercury</ownerDesignName>
 <engineerTo>
 <item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7F379C48-F3A3-8382-6490-6C9605D59186</attributeRef>
-<attributeRef>8A811FD2-6222-DCC6-0E56-2889F211490C</attributeRef>
+<attributeRef>C4036A6E-E68B-3B72-8E18-F5730A31FDB5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -103,18 +103,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="login" id="D09A5B8E-C800-95A8-0A66-0BA91AE648F2">
-<createdBy>mathe</createdBy>
-<createdTime>2023-11-16 18:03:56 UTC</createdTime>
-<generatorID>89874307-17B1-810A-8332-4CAD674C39A8</generatorID>
-<ownerDesignName>mercury</ownerDesignName>
-<engineerTo>
-<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
-</engineerTo>
-<referedAttribute>C84D41B0-3C1D-B2DF-4230-2BAF9F05AB41</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="58238F5F-6743-9603-1E81-87A7636F8A98" name="T_MERCURY_USUARIO PK">

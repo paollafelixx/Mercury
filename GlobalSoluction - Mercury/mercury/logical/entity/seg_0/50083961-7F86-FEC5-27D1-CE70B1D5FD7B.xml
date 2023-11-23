@@ -47,6 +47,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_plano_saude" id="383EDAAE-ED19-09E2-EFB4-9BDFE1969CF5">
+<createdBy>mathe</createdBy>
+<createdTime>2023-11-23 06:21:06 UTC</createdTime>
+<generatorID>9ECE841D-62AE-D778-6F05-1822DED879F2</generatorID>
+<ownerDesignName>mercury</ownerDesignName>
+<engineerTo>
+<item key="0BBD4D9A-2840-D174-F60E-28B03AB0E253" value="true"/>
+</engineerTo>
+<referedAttribute>41AE37ED-9AEE-293A-2D0C-FE34FD8F45FD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="05CB8D34-3B9D-913E-9AC6-C12C6EC21E45" name="T_MERCURY_AGENDAMENTO_EXAMES PK">
